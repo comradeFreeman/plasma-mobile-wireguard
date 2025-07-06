@@ -45,8 +45,7 @@ if [[ -n "$FILE" && -f "$FILE" ]]; then
 else
   if kdialog --yesno "No WireGuard profiles found.
 You can add one manually or place a config file on your system.
-Click the toggle again to select a config.
-Press 'Yes' to open network settings or 'No' to exit." --yes-label "Open network settings" --no-label "Exit" --title "Profiles not found"; then
+Click the toggle again to select a config." --yes-label "Open network settings" --no-label "Exit" --title "Profiles not found"; then
     kcmshell6 networkmanagement
   fi
 fi
