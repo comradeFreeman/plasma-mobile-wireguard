@@ -1,0 +1,20 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "mister.siroejkin@yandex.ru",
+                "Name": "Comrade Freeman"
+            }
+        ],
+        "Description": "Wireguard VPN Quick Settings button for Plasma Mobile",
+        "Icon": "network-vpn",
+        "Id": "org.kde.plasma.quicksetting.vpn.wg",
+        "License": "GPL-2.0+",
+        "Name": "Wireguard VPN",
+        "ServiceTypes": [
+            "KPackage/GenericQML"
+        ],
+        "Version": "0.1",
+        "Website": "https://kde.org"
+    }
+}
