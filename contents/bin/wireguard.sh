@@ -17,7 +17,7 @@ else
       kdialog --passivepopup "Импортирован профиль Wireguard $FILE" 5
     else
       if [ -z "$1" ] && kdialog --yesno "Настроенные профили wireguard не найдены. Вы можете добавить профиль вручную или положить конфиг по пути /etc/wireguard/. Нажмите 'ОК', чтобы открыть настройки сети и 'Отмена', чтобы выйти" --title "Конфиг не найден"; then
-        kcmshell networkmanagement && exec "$0" stop
+        kcmshell6 networkmanagement && exec "$0" stop
       fi
     fi
   fi
